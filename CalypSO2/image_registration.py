@@ -6,7 +6,8 @@ This module is used for image registration for SO2 camera images. It takes two
  images, works out the offset between the two, then can be used to shift one
                         image to eliminate the offset
 
-@author: Matthew Varnam - mvarnam@hotmail.co.uk - The University of Manchester
+@author: Matthew Varnam - The University of Manchester
+@email: matthew.varnam(-at-)manchester.ac.uk
 """
 ##CV2 is an image processing library used to import tif images
 import cv2
