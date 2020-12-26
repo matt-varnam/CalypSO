@@ -45,7 +45,7 @@ from geocamp.geometry.visualise import model_terrain, create_hillside
 from geocamp.geometry.quick_pp import worker_qp, proc_qp
 
 #Import custom SO2 camera module for image offset detection
-from CalypSO.image_registration import detectshift
+from CalypSO2.image_registration import detectshift
 
 from glob import glob
 
