@@ -15,3 +15,9 @@ The creation of the virtual skyline identifies the highest pixel in each column 
 The iteration uses SciPy's bounded COBYLA minimisation to avoid the iteration finding an alternate minimum (though this still happens a bit)
 
 All other code is geometry calculations and transformations.
+
+# Contained programs
+
+plot_geotiff.py aligns the virtual skyline with a real skyline, then outputs the distance to the ground for each pixel
+
+plume_distance.py can be used to calculate the distance to an SO<sub>2</sub> at each pixel plume blowing from a defined latitude and longitude, providing simultaneous traverses are used (this section may require reworking for volcanoes other than Masaya)
