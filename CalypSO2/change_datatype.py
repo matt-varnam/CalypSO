@@ -5,7 +5,8 @@ Created on Tue Oct 10 15:20:56 2017
 This is a simple module simply for converting between 16bit and 8bit images, 
   mostly because some cv2 commands only accept float32 or uint8 as inputs
 
-@author:  Matthew Varnam - mvarnam@hotmail.co.uk - The University of Manchester
+@author: Matthew Varnam - The University of Manchester
+@email: matthew.varnam(-at-)manchester.ac.uk
 """
 #Convert a 16-bit image into an 8-bit image
 def uint16_uint8(image):
